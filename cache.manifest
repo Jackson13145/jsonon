@@ -1,0 +1,34 @@
+CACHE MANIFEST
+# 2018-01-19:v1.0.1
+
+# cache this files
+CACHE:
+/js/jquery.js
+/js/difflib.js
+/js/editor.js
+/js/FileSaver.js
+/js/helper.js
+/js/jquery.js
+/js/jsonlint.js
+/js/localforage.min.js
+/js/main.js
+/js/parse.js
+/js/vue.min.js
+/svg/icon.svg
+/img/demo-1.png
+/img/demo-2.png
+/img/demo-3.png
+/img/logo.png
+/css/diffview.css
+/css/hint.min.css
+/css/main.css
+
+
+# Resources that require the user to be online.
+NETWORK:
+index.html
+
+# static.html will be served if main.py is inaccessible
+# offline.jpg will be served in place of all images in images/large/
+# offline.html will be served in place of all other .html files
+FALLBACK:
