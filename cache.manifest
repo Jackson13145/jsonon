@@ -3,8 +3,8 @@ CACHE MANIFEST
 
 # cache this files
 CACHE:
-/js/jquery.js
 /js/difflib.js
+/js/diffview.js
 /js/editor.js
 /js/FileSaver.js
 /js/helper.js
@@ -24,9 +24,10 @@ CACHE:
 /css/main.css
 
 
+# All other resources (e.g. sites) require the user to be online.
 # Resources that require the user to be online.
 NETWORK:
-index.html
+*
 
 # static.html will be served if main.py is inaccessible
 # offline.jpg will be served in place of all images in images/large/
